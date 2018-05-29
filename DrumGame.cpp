@@ -49,6 +49,7 @@ int main()
 	Sprite spriteDrumHand;
 	spriteDrumHand.setTexture(textureDrumHand);
 	spriteDrumHand.setOrigin(100, 100);
+	spriteDrumHand.setScale(200/(resolution.x/4),200/(resolution.x/4));
     
     // Create a texture for our background and load it.
     Texture textureBackground;
