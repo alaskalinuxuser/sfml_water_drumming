@@ -49,7 +49,7 @@ int main()
 	Sprite spriteDrumHand;
 	spriteDrumHand.setTexture(textureDrumHand);
 	spriteDrumHand.setOrigin(100, 100);
-	spriteDrumHand.setScale(200/(resolution.x/4),200/(resolution.x/4));
+	spriteDrumHand.setScale((resolution.x*.04)/200,(resolution.x*.04)/200);
     
     // Create a texture for our background and load it.
     Texture textureBackground;
@@ -67,27 +67,27 @@ int main()
     Sprite spriteWD1;
     spriteWD1.setTexture(textureWaterDrum_still);
     spriteWD1.setPosition(resolution.x/15*2,resolution.y/7*2);
-    spriteWD1.setScale(.5,.5);
+    spriteWD1.setScale((resolution.x*.2)/500,(resolution.x*.2)/500);
     
     Sprite spriteWD2;
     spriteWD2.setTexture(textureWaterDrum_still);
     spriteWD2.setPosition(resolution.x/15*4,resolution.y/7*4);
-    spriteWD2.setScale(.5,.5);
+    spriteWD2.setScale((resolution.x*.2)/500,(resolution.x*.2)/500);
     
     Sprite spriteWD3;
     spriteWD3.setTexture(textureWaterDrum_still);
     spriteWD3.setPosition(resolution.x/15*6,resolution.y/7*2);
-    spriteWD3.setScale(.5,.5);
+    spriteWD3.setScale((resolution.x*.2)/500,(resolution.x*.2)/500);
     
     Sprite spriteWD4;
     spriteWD4.setTexture(textureWaterDrum_still);
     spriteWD4.setPosition(resolution.x/15*8,resolution.y/7*4);
-    spriteWD4.setScale(.5,.5);
+    spriteWD4.setScale((resolution.x*.2)/500,(resolution.x*.2)/500);
     
     Sprite spriteWD5;
     spriteWD5.setTexture(textureWaterDrum_still);
     spriteWD5.setPosition(resolution.x/15*10,resolution.y/7*2);
-    spriteWD5.setScale(.5,.5);
+    spriteWD5.setScale((resolution.x*.2)/500,(resolution.x*.2)/500);
     
     // Add a font.
     Font font;
